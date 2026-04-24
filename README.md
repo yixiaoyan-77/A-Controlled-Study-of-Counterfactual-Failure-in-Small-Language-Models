@@ -21,13 +21,14 @@ Install the required packages (preferably in a virtual environment or Google Col
 
 ```bash
 pip install -r requirements.txt
+```
 
-2. Obtain the Dataset
+### 2. Obtain the Dataset
 The dataset is SemEval-2020 Task 5 Subtask 1 (Counterfactual Detection).
 Due to licensing, the dataset files are not included in this repository.
 Please follow the instructions in data/README.md to download the two required CSV files (subtask1_train.csv and subtask1_test.csv) and place them in the data/ folder.
 
-3. Run the Experiments
+### 3. Run the Experiments
 The entire pipeline is contained in a single Colab notebook: dsai5207.ipynb.
 Open it in Google Colab (or Jupyter), make sure the runtime type is set to GPU, and run all cells in order.
 
@@ -42,3 +43,11 @@ Perform lexical perturbation evaluation
 Run full-set and generalisation linear probes on hidden representations
 
 Generate figures (saved to figures/)
+
+## Citation
+If you use this code or findings, please cite the original SemEval-2020 dataset:
+
+Yang, X., et al. (2020). *SemEval-2020 Task 5: Detecting counterfactuals*. Proceedings of SemEval.
+
+## License
+This project is for educational purposes. Follow the SemEval-2020 data terms for the dataset.
