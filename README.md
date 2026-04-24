@@ -22,12 +22,12 @@ Install the required packages (preferably in a virtual environment or Google Col
 ```bash
 pip install -r requirements.txt
 
-### 2. Obtain the Dataset
+2. Obtain the Dataset
 The dataset is SemEval-2020 Task 5 Subtask 1 (Counterfactual Detection).
 Due to licensing, the dataset files are not included in this repository.
 Please follow the instructions in data/README.md to download the two required CSV files (subtask1_train.csv and subtask1_test.csv) and place them in the data/ folder.
 
-### 3. Run the Experiments
+3. Run the Experiments
 The entire pipeline is contained in a single Colab notebook: dsai5207.ipynb.
 Open it in Google Colab (or Jupyter), make sure the runtime type is set to GPU, and run all cells in order.
 
