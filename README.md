@@ -13,8 +13,7 @@ We investigate whether small pre-trained language models (DistilBERT, BERT-base)
 ├── dsai5207.ipynb             # Main notebook – reproduces all experiments
 ├── data/
 │   └── README.md              # How to obtain the dataset
-├── figures/                   # Output figures (PDF) from the experiments
-└── results/                   # (Optional) saved result tables
+└── figures/                   # Output figures from the experiments
 ```
 
 ## Getting Started
